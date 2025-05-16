@@ -1,4 +1,4 @@
-# Brainscape to Anki Converter
+# Brainscape to Anki Converter ( THIS WAS MADE IN 24 min ) 
 
 A Python application that scrapes flashcards from Brainscape websites and converts them to Anki format (.csv).
 
