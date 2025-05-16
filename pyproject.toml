@@ -1,0 +1,45 @@
+
+[tool.poetry]
+name = "brainscape-to-anki"
+version = "0.1.0"
+description = "Convert Brainscape flashcards to Anki format"
+authors = ["Your Name <your.email@example.com>"]
+readme = "README.md"
+packages = [{include = "brainscape_to_anki"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+httpx = "^0.27.0"
+beautifulsoup4 = "^4.12.2"
+customtkinter = "^5.2.2"
+tkinterdnd2 = "^0.3.0"
+tkinterdnd2-pmgagne = {git = "https://github.com/pmgagne/tkinterdnd2.git"}
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.0"
+black = "^24.1.0"
+isort = "^5.13.2"
+mypy = "^1.8.0"
+pytest-cov = "^4.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+brainscape-to-anki = "brainscape_to_anki.presentation.main:main"
+
+[tool.black]
+line-length = 88
+target-version = ["py310"]
+
+[tool.isort]
+profile = "black"
+line_length = 88
+
+[tool.mypy]
+python_version = "3.10"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
