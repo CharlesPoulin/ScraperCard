@@ -24,12 +24,6 @@ A Python application that scrapes flashcards from Brainscape websites and conver
 poetry install
 `
 
-3. Install TkinterDnD2 (required for drag and drop functionality):
-
-`shell
-pip install git+https://github.com/pmgagne/tkinterdnd2.git
-`
-
 ## Usage
 
 1. Run the application:
