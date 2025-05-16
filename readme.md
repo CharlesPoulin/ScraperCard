@@ -1,6 +1,6 @@
 # Brainscape to Anki Converter
 
-A Python application that scrapes flashcards from Brainscape websites and converts them to Anki format (.csv).
+A Python application that scrapes flashcards from B***scape websites and converts them to Anki format (.csv).
 
 ## Features
 
